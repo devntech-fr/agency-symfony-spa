@@ -1,0 +1,11 @@
+App\Ecommerce\Model\Collection\ProductCategory:
+  itemOperations:
+    post:
+      method: 'POST'
+      controller: App\Ecommerce\Controller\PostProductCategory
+
+App\Cms\Model\Collection\Page:
+  collectionOperations:
+    get:
+      path: '/pages'
+      controller: App\Cms\Controller\PageListController

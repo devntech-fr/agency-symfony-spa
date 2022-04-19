@@ -1,0 +1,11 @@
+{% extends 'play/layout/layout.html.twig' %}
+
+{% block body %}
+  <!-- ====== Banner Section Start -->
+  {% include 'play/section/page_title.html.twig' with { page_title: 'Blog en grille'} %}
+  <!-- ====== Banner Section End -->
+
+  <!-- ====== Blog Section Start -->
+  {% include 'play/section/blog.html.twig' %}
+  <!-- ====== Blog Section End -->
+{% endblock %}

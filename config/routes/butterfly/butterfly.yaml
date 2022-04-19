@@ -1,0 +1,11 @@
+home:
+  path: /
+  controller: App\Controller\ButterflyController::home
+
+inner_page:
+  path: /inner
+  controller: App\Controller\ButterflyController::inner
+
+portfolio_details:
+  path: /portfolio-details
+  controller: App\Controller\ButterflyController::portfolioDetails

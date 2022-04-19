@@ -1,0 +1,11 @@
+{% extends 'play/layout/layout.html.twig' %}
+
+{% block body %}
+  <!-- ====== Banner Section Start -->
+  {% include 'play/section/page_title.html.twig' with { page_title: 'Article de blog' } %}
+  <!-- ====== Banner Section End -->
+
+  <!-- ====== Blog Details Section Start -->
+  {% include 'play/section/blog-single.html.twig' %}
+  <!-- ====== Blog Details Section End -->
+{% endblock %}

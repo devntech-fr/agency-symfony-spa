@@ -1,0 +1,28 @@
+Cms\Entity\Collection\Page:
+  type: entity
+  table: cms_pages
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    title:
+      type: string
+      length: 150
+    slug:
+      type: string
+      length: 255
+    uid:
+      type: uuid
+      length: 255
+    headers:
+      type: array
+    oneToOne:
+      page_metadata:
+        targetEntity: PageMetadata
+        joinColumn:
+          name: page_metadata_id
+          referencedColumnName: id
+          onDelete: CASCADE
+

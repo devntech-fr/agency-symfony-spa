@@ -1,0 +1,11 @@
+{% extends 'play/layout/layout.html.twig' %}
+
+{% block body %}
+  <!-- ====== Banner Section Start -->
+  {% include 'play/section/page_title.html.twig' with {page_title: '404, page non trouvée.'} %}
+  <!-- ====== Banner Section End -->
+
+  <!-- ====== 404 Section Start -->
+  {% include 'play/section/404.html.twig' %}
+  <!-- ====== 404 Section End -->
+{% endblock %}

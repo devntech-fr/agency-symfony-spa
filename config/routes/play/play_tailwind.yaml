@@ -1,0 +1,27 @@
+tailwind_home:
+  path: /
+  controller: App\Controller\PlayTailwindController::home
+
+tailwind_about:
+  path: /about
+  controller: App\Controller\PlayTailwindController::about
+
+tailwind_pricing:
+  path: /pricing
+  controller: App\Controller\PlayTailwindController::pricing
+
+tailwind_blog:
+  path: /blog
+  controller: App\Controller\PlayTailwindController::blog
+
+tailwind_blog_single:
+  path: /blog/single
+  controller: App\Controller\PlayTailwindController::single
+
+tailwind_contact:
+  path: /contact
+  controller: App\Controller\PlayTailwindController::contact
+
+tailwind_not_found:
+  path: /not-found
+  controller: App\Controller\PlayTailwindController::notFound

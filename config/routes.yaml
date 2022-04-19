@@ -1,3 +1,23 @@
-#index:
-#    path: /
-#    controller: App\Controller\DefaultController::index
+play:
+    resource: './routes/play/'
+    prefix: '/play'
+    name_prefix: 'play_'
+    type: directory
+
+butterfly:
+    resource: './routes/butterfly/'
+    prefix: '/butterfly'
+    name_prefix: 'butterfly_'
+    type: directory
+
+login:
+    path: /login
+    controller: App\Controller\LoginController::login
+
+signup:
+    path: /signup
+    controller: App\Controller\RegistrationController::register
+
+dashboard:
+    path: /dashboard
+    controller: App\Controller\DashboardController::dashboard

@@ -1,0 +1,15 @@
+{% extends 'play/layout/layout.html.twig' %}
+
+{% block body %}
+  <!-- ====== Banner Section Start -->
+  {% include 'play/section/page_title.html.twig' with { page_title: 'A propos'}%}
+  <!-- ====== Banner Section End -->
+
+  <!-- ====== About Section Start -->
+  {% include 'play/section/about.html.twig' %}
+  <!-- ====== About Section End -->
+
+  <!-- ====== Team Section Start -->
+  {% include 'play/section/team.html.twig' %}
+  <!-- ====== Team Section End -->
+{% endblock %}

@@ -1,0 +1,35 @@
+{% extends 'butterfly/layout/layout.html.twig' %}
+
+{% block stylesheets %}{{ parent() }}{% endblock %}
+
+{% block hero %}
+    {% include 'butterfly/section/hero.html.twig' %}
+{% endblock %}
+
+{% block body %}
+
+    <main id="main">
+        {% include 'butterfly/section/pure_counter.html.twig' %}
+
+        {% include 'butterfly/section/clients.html.twig' %}
+
+        {% include 'butterfly/section/services.html.twig' %}
+
+        {% include 'butterfly/section/portfolio.html.twig' %}
+
+        {% include 'butterfly/section/testimonials.html.twig' %}
+
+        {% include 'butterfly/section/team.html.twig' %}
+
+        {% include 'butterfly/section/gallery.html.twig' %}
+
+        {% include 'butterfly/section/contact.html.twig' %}
+    </main>
+
+{% endblock %}
+
+{% block back_to_top %}
+    {{ parent() }}
+{% endblock %}
+
+{% block javascripts %}{{ parent() }}{% endblock %}

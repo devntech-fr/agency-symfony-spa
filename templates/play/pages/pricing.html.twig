@@ -1,0 +1,15 @@
+{% extends 'play/layout/layout.html.twig' %}
+
+{% block body %}
+  <!-- ====== Banner Section Start -->
+  {% include 'play/section/page_title.html.twig' with { page_title: 'Pricing tables'} %}
+  <!-- ====== Banner Section End -->
+
+  <!-- ====== Pricing Section Start -->
+  {% include 'play/section/pricing.html.twig' %}
+  <!-- ====== Pricing Section End -->
+
+  <!-- ====== Faq Section Start -->
+  {% include 'play/section/faq.html.twig' %}
+  <!-- ====== Faq Section End -->
+{% endblock %}
