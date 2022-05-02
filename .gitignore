@@ -1,6 +1,7 @@
 
 ###> symfony/framework-bundle ###
-/.env.local
+/.env
+/.env.test
 /.env.local.php
 /.env.*.local
 /config/secrets/prod/prod.decrypt.private.php
@@ -15,3 +16,8 @@
 npm-debug.log
 yarn-error.log
 ###< symfony/webpack-encore-bundle ###
+
+.phpunit.result.cache
+
+.history
+.idea
